@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanshita Parab - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <h1>Vanshita Parab</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <h2>Hello, I'm Vanshita!</h2>
+            <p>I'm a final-year IT Engineering student looking for opportunities to grow and learn.</p>
+            <div class="home-buttons">
+                <button onclick="scrollToSection('contact')">Contact Me</button>
+                <button onclick="downloadResume()" class="resume-btn">Download Resume</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="Vanshita.jpg" alt="Vanshita Parab - Professional Photo">
+                </div>
+                <div class="about-text">
+                    <p>I'm studying Information Technology at Shah and Anchor Kutchhi Engineering College.</p>
+                    <p>I am passionate about leveraging and advancing technical competencies in software development and data analysis in real-world scenarios.</p>
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> vanshitaparab1475@gmail.com</p>
+                        <p><strong>Phone:</strong> +91-8369806249</p>
+                        <p><strong>Location:</strong> Mumbai</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            
+            <div class="project">
+                <h3>Sentify</h3>
+                <p>A Java application that analyzes if text is positive, negative, or neutral.</p>
+                <p>Made with: Java, Swing</p>
+                <div class="project-links">
+                    <a href="https://github.com/Vanshup/sentify" target="_blank" class="project-link github-link">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>VidTranscribe</h3>
+                <p>A Python tool that converts video and audio files into text.</p>
+                <p>Made with: Python, Tkinter</p>
+                <div class="project-links">
+                    <a href="https://github.com/Vanshup/vidtranscribe" target="_blank" class="project-link github-link">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            
+            <div class="skill-category" data-animation="slide-up" data-delay="0">
+                <div class="category-header">
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3>Programming Languages</h3>
+                </div>
+                <ul>
+                    <li class="skill-item" data-delay="0.1">C</li>
+                    <li class="skill-item" data-delay="0.2">Java</li>
+                    <li class="skill-item" data-delay="0.3">Python</li>
+                    <li class="skill-item" data-delay="0.4">JavaScript</li>
+                </ul>
+            </div>
+
+            <div class="skill-category" data-animation="slide-up" data-delay="0.2">
+                <div class="category-header">
+                    <i class="fas fa-globe skill-icon"></i>
+                    <h3>Web Development</h3>
+                </div>
+                <ul>
+                    <li class="skill-item" data-delay="0.1">HTML</li>
+                    <li class="skill-item" data-delay="0.2">CSS</li>
+                    <li class="skill-item" data-delay="0.3">ReactJS</li>
+                </ul>
+            </div>
+
+            <div class="skill-category" data-animation="slide-up" data-delay="0.4">
+                <div class="category-header">
+                    <i class="fas fa-database skill-icon"></i>
+                    <h3>Databases</h3>
+                </div>
+                <ul>
+                    <li class="skill-item" data-delay="0.1">MySQL</li>
+                    <li class="skill-item" data-delay="0.2">MongoDB</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            
+            <div class="education-item">
+                <h3>Bachelor of Technology - Information Technology</h3>
+                <p>Shah and Anchor Kutchhi Engineering College</p>
+                <p>2022 - 2026</p>
+            </div>
+
+            <div class="education-item">
+                <h3>Higher Secondary Certificate (HSC)</h3>
+                <p>National Education Society College of Arts, Science and Commerce</p>
+                <p>2021 - 2022</p>
+            </div>
+
+            <div class="education-item">
+                <h3>Secondary School Certificate (SSC)</h3>
+                <p>Vidyadhiraja High School</p>
+                <p>2019 - 2020</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            
+            <div class="cert-grid">
+                <div class="cert-item">
+                    <h3>Introduction to Java</h3>
+                    <p>Infosys</p>
+                    <a href="/certificates/Introduction to Java.pdf" target="_blank" class="cert-link">View Certificate</a>
+                </div>
+                
+                <div class="cert-item">
+                    <h3>C Programming Language Certified Associate</h3>
+                    <p>C++ Institute</p>
+                    <a href="/certificates/Vanshita C Prog certificate.pdf" target="_blank" class="cert-link">View Certificate</a>
+                </div>
+                
+                <div class="cert-item">
+                    <h3>Python Programming</h3>
+                    <p>Python Institute</p>
+                    <a href="/certificates/PCAP Programming-certificate.pdf" target="_blank" class="cert-link">View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="form-message"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Vanshita Parab. All rights reserved.</p>
+                <p>Built with HTML, CSS, and JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
