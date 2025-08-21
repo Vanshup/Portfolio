@@ -48,8 +48,6 @@ It is built using **HTML, CSS, and JavaScript** with a clean and modern design.
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** HTML5, CSS3, JavaScript  
-- **Icons:** [Font Awesome](https://fontawesome.com/)  
-- **Fonts:** [Google Fonts (Poppins)](https://fonts.google.com/)  
+- **Frontend:** HTML5, CSS3, JavaScript
 
 ---
