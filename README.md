@@ -53,6 +53,3 @@ It is built using **HTML, CSS, and JavaScript** with a clean and modern design.
 - **Fonts:** [Google Fonts (Poppins)](https://fonts.google.com/)  
 
 ---
-
-## 📂 Project Structure
-
